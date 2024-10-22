@@ -81,7 +81,7 @@ header {
 
 .contenedor-info {
   font-size: 18px;
-  text-shadow: 2px 2px 4px rgba(253, 253, 253, 0.8); 
+  text-shadow: 2px 2px 4px rgba(255, 2, 2, 0.8); 
   color: #000000;
   flex-basis: 30%;
   display: flex;
