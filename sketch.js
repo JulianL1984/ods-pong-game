@@ -7,9 +7,9 @@ let pelota = {
   x: canvas.width / 2,
   y: canvas.height / 2,
   radio: canvas.width * 0.05, // 5% del ancho del canvas
-  dx: 4 * 1.3,
-  dy: 4 * 1.3,
-  angulo: 3
+  dx: 4 * 1.4,
+  dy: 4 * 1.4,
+  angulo: 5
 };
 
 let paletaIzq = {
