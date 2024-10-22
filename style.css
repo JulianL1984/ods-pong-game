@@ -91,7 +91,7 @@ header {
   background-color: rgba(253, 243, 243, 0.8);
   margin: 5px;
   border-radius: 5%;
-  border: 5px dashed rgb(255, 255, 255);
+  border: 5px dashed rgb(0, 0, 0);
 }
 
 canvas {
@@ -107,8 +107,6 @@ canvas {
   margin-top: px;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  border: 3px #ffffff;
-  border-style: dashed;
   margin: 7px;
   font-size: 25px;
   color: rgb(248, 248, 248);
