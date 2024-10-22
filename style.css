@@ -43,6 +43,7 @@ header {
   text-align: center;
   z-index: 1001;
   font-size: 2rem;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
   border: 10px solid rgb(3, 41, 5);
 }
 
@@ -118,10 +119,10 @@ canvas {
   margin-top: 0px;
   padding: 5px 5px;
   background-color: rgb(253, 0, 0);
-  border: none;
+  border: 3px #ffffff;
   border-radius: 5px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
   font-family: "Gayathri", sans-serif;
   
@@ -129,6 +130,7 @@ canvas {
 
 /* Estilo para el footer */
 footer {
+  font-size: 1rem;
   position: fixed;
   bottom: 0;
   width: 100%;
