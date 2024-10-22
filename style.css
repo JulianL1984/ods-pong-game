@@ -105,11 +105,11 @@ canvas {
   align-items: center;
   margin-top: 2px;
   align-items: center;
-  background-color: rgba(255, 145, 0, 0.8);
+  background-color: rgba(30, 255, 0, 0.5);
   border: 3px #ffffff;
   border-style: dashed;
-  margin: 10px;
-  font-size: 35px;
+  margin: 7px;
+  font-size: 25px;
   color: rgb(8, 1, 43);
 }
 
