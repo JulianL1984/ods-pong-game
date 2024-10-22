@@ -80,8 +80,8 @@ header {
 
 .contenedor-info {
   font-size: 20px;
-  font-style: oblique;
-  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  color: #ffffff;
   flex-basis: 30%;
   display: flex;
   flex-direction: column;
