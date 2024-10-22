@@ -155,12 +155,10 @@ function dibujar() {
 function moverPaletas() {
   paletaIzq.y += paletaIzq.dy;
 
-  if (pelota.y < paletaDer.y + paletaDer.height / 2) {
-    paletaDer.y -= paletaDer.dy;
-  } else if (pelota.y > paletaDer.y + paletaDer.height / 2) {
-    paletaDer.y += paletaDer.dy;
-  }
+  // Si paletaDer.dy es mayor que 0, moverse
+  paletaDer.y += paletaDer.dy;
 
+  // Limitar el movimiento de las paletas dentro del canvas
   paletaIzq.y = Math.max(0, Math.min(canvas.height - paletaIzq.height, paletaIzq.y));
   paletaDer.y = Math.max(0, Math.min(canvas.height - paletaDer.height, paletaDer.y));
 }
