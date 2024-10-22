@@ -6,10 +6,10 @@ const ctx = canvas.getContext("2d");
 let pelota = {
   x: canvas.width / 2,
   y: canvas.height / 2,
-  radio: canvas.width * 0.07, // 5% del ancho del canvas
-  dx: 4 * 1.7,
-  dy: 4 * 1.7,
-  angulo: 10
+  radio: canvas.width * 0.05, // 5% del ancho del canvas
+  dx: 4 * 1.3,
+  dy: 4 * 1.3,
+  angulo: 3
 };
 
 let paletaIzq = {
